@@ -2,6 +2,7 @@
 [keystone_authtoken]
 memcached_servers = localhost:11211
 cafile = /opt/stack/data/ca-bundle.pem
+www_authenticate_uri = http://10.132.46.216/identity
 project_domain_name = Default
 project_name = service
 user_domain_name = Default
@@ -49,6 +50,7 @@ lock_path = /opt/stack/manila/manila_locks
 [neutron]
 memcached_servers = localhost:11211
 cafile = /opt/stack/data/ca-bundle.pem
+www_authenticate_uri = http://10.132.46.216/identity
 project_domain_name = Default
 project_name = service
 user_domain_name = Default
@@ -61,6 +63,7 @@ auth_type = password
 [nova]
 memcached_servers = localhost:11211
 cafile = /opt/stack/data/ca-bundle.pem
+www_authenticate_uri = http://10.132.46.216/identity
 project_domain_name = Default
 project_name = service
 user_domain_name = Default
@@ -73,6 +76,7 @@ auth_type = password
 [cinder]
 memcached_servers = localhost:11211
 cafile = /opt/stack/data/ca-bundle.pem
+www_authenticate_uri = http://10.132.46.216/identity
 project_domain_name = Default
 project_name = service
 user_domain_name = Default
@@ -85,6 +89,7 @@ auth_type = password
 [glance]
 memcached_servers = localhost:11211
 cafile = /opt/stack/data/ca-bundle.pem
+www_authenticate_uri = http://10.132.46.216/identity
 project_domain_name = Default
 project_name = service
 user_domain_name = Default
@@ -95,8 +100,8 @@ interface = public
 auth_type = password
 
 [generic1]
-******_subnet_id = 4bcc3cd7-fdc9-427e-ab44-61070eebab3c
-******_network_id = 7e773937-0949-449d-ac76-34ede8d6c578
+******_subnet_id = bc03404b-c2b4-45e8-9420-c03efdff9a42
+******_network_id = cb04d02e-9b1e-49a3-9b9a-03e819c9628d
 ssh_conn_timeout = 180
 driver_handles_share_servers = True
 service_instance_user = manila
@@ -107,8 +112,8 @@ share_backend_name = GENERIC1
 share_driver = manila.share.drivers.generic.GenericShareDriver
 
 [generic2]
-******_subnet_id = 4bcc3cd7-fdc9-427e-ab44-61070eebab3c
-******_network_id = 7e773937-0949-449d-ac76-34ede8d6c578
+******_subnet_id = bc03404b-c2b4-45e8-9420-c03efdff9a42
+******_network_id = cb04d02e-9b1e-49a3-9b9a-03e819c9628d
 ssh_conn_timeout = 180
 driver_handles_share_servers = True
 service_instance_user = manila
