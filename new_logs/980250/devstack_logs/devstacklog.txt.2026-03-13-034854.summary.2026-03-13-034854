@@ -1,0 +1,37 @@
+2026-03-13 03:48:54.652 | stack.sh log /tmp/devstack_logs/devstacklog.txt.2026-03-13-034854
+2026-03-13 03:49:40.943 | Installing package prerequisites
+2026-03-13 03:55:02.080 | Starting RabbitMQ
+2026-03-13 03:55:46.687 | Installing OpenStack project source
+2026-03-13 04:06:44.200 | Installing Tempest
+2026-03-13 04:06:44.650 | Installing Manila Client
+2026-03-13 04:06:48.145 | Installing Manila
+2026-03-13 04:07:30.998 | Installing Manila UI
+2026-03-13 04:08:02.432 | Configuring and starting MySQL
+2026-03-13 04:08:25.697 | Starting Keystone
+2026-03-13 04:09:49.417 | Configuring Horizon
+2026-03-13 04:11:19.904 | Configuring Glance
+2026-03-13 04:11:20.197 | Configuring Neutron
+2026-03-13 04:11:51.040 | Configuring Swift
+2026-03-13 04:11:51.327 | Configuring Cinder
+2026-03-13 04:11:51.617 | Configuring placement
+2026-03-13 04:12:24.726 | Configuring Nova
+2026-03-13 04:12:45.762 | Configuring Manila
+2026-03-13 04:12:54.521 | Setting up backend_availability_zone option for any enabled backends that do not use the Generic driver and have not been set previously. Availability zones for the Generic driver must coincide with those created for Nova and Cinder.
+2026-03-13 04:12:57.191 | Initializing Manila
+2026-03-13 04:13:17.075 | Installing extra libraries
+2026-03-13 04:13:18.831 | Creating Manila entities for auth service
+2026-03-13 04:14:00.651 | Configuring Manila UI
+2026-03-13 04:14:01.180 | Starting Swift
+2026-03-13 04:14:21.589 | Starting Nova API
+2026-03-13 04:14:30.424 | Starting OVN services
+2026-03-13 04:14:48.237 | Starting Neutron
+2026-03-13 04:15:02.175 | Starting Placement
+2026-03-13 04:15:10.721 | Creating initial neutron network elements
+2026-03-13 04:16:20.406 | Starting Nova
+2026-03-13 04:16:46.959 | Starting Cinder
+2026-03-13 04:17:08.883 | Starting Glance
+2026-03-13 04:17:17.276 | Uploading images
+2026-03-13 04:17:28.849 | Starting Horizon
+2026-03-13 04:17:43.231 | Creating Manila service flavor
+2026-03-13 04:17:49.375 | Creating Manila service security group
+2026-03-13 04:18:46.379 | Creating Manila service image
