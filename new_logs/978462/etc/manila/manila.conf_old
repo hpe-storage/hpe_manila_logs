@@ -48,9 +48,6 @@ connection = mysql+pymysql://root:******@127.0.0.1/manila?charset=utf8&plugin=db
 lock_path = /opt/stack/manila/manila_locks
 
 [neutron]
-memcached_servers = localhost:11211
-cafile = /opt/stack/data/ca-bundle.pem
-www_authenticate_uri = http://10.132.46.216/identity
 project_domain_name = Default
 project_name = service
 user_domain_name = Default
@@ -61,9 +58,6 @@ interface = public
 auth_type = password
 
 [nova]
-memcached_servers = localhost:11211
-cafile = /opt/stack/data/ca-bundle.pem
-www_authenticate_uri = http://10.132.46.216/identity
 project_domain_name = Default
 project_name = service
 user_domain_name = Default
@@ -74,9 +68,6 @@ interface = public
 auth_type = password
 
 [cinder]
-memcached_servers = localhost:11211
-cafile = /opt/stack/data/ca-bundle.pem
-www_authenticate_uri = http://10.132.46.216/identity
 project_domain_name = Default
 project_name = service
 user_domain_name = Default
@@ -87,9 +78,6 @@ interface = public
 auth_type = password
 
 [glance]
-memcached_servers = localhost:11211
-cafile = /opt/stack/data/ca-bundle.pem
-www_authenticate_uri = http://10.132.46.216/identity
 project_domain_name = Default
 project_name = service
 user_domain_name = Default
@@ -100,8 +88,8 @@ interface = public
 auth_type = password
 
 [generic1]
-******_subnet_id = 109f6090-11db-4569-93ca-7f5928adf811
-******_network_id = 81e9072e-e572-49bd-af11-ff3fc6830a73
+******_subnet_id = 3a89e3a9-0e45-4684-b61d-c3473ab60d80
+******_network_id = eb1ede7e-80d6-4626-ac00-8b9a4955180d
 ssh_conn_timeout = 180
 driver_handles_share_servers = True
 service_instance_user = manila
@@ -112,8 +100,8 @@ share_backend_name = GENERIC1
 share_driver = manila.share.drivers.generic.GenericShareDriver
 
 [generic2]
-******_subnet_id = 109f6090-11db-4569-93ca-7f5928adf811
-******_network_id = 81e9072e-e572-49bd-af11-ff3fc6830a73
+******_subnet_id = 3a89e3a9-0e45-4684-b61d-c3473ab60d80
+******_network_id = eb1ede7e-80d6-4626-ac00-8b9a4955180d
 ssh_conn_timeout = 180
 driver_handles_share_servers = True
 service_instance_user = manila
