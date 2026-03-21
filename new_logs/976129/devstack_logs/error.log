@@ -1,1 +1,0 @@
-[ERROR] /opt/stack/devstack/functions-common:701 git call failed: [git clone --no-checkout https://github.com/openstack/manila /opt/stack/manila]
