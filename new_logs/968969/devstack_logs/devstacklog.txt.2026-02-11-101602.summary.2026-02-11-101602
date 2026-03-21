@@ -1,8 +1,0 @@
-2026-02-11 10:16:02.232 | stack.sh log /tmp/devstack_logs/devstacklog.txt.2026-02-11-101602
-2026-02-11 10:16:49.255 | Installing package prerequisites
-2026-02-11 10:24:09.709 | Starting RabbitMQ
-2026-02-11 10:25:09.713 | Installing OpenStack project source
-2026-02-11 10:38:07.792 | Installing Tempest
-2026-02-11 10:38:08.212 | Installing Manila Client
-2026-02-11 10:38:11.934 | Installing Manila
-2026-02-11 10:39:03.131 | Installing Manila UI
