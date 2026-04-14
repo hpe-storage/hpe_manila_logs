@@ -1,0 +1,21 @@
+2026-04-14 05:39:10.117 | stack.sh log /tmp/devstack_logs/devstacklog.txt.2026-04-14-053909
+2026-04-14 05:40:04.936 | Installing package prerequisites
+2026-04-14 05:45:41.289 | Starting RabbitMQ
+2026-04-14 05:46:24.376 | Installing OpenStack project source
+2026-04-14 05:57:52.945 | Installing Tempest
+2026-04-14 05:57:53.435 | Installing Manila Client
+2026-04-14 05:57:57.090 | Installing Manila
+2026-04-14 05:58:48.537 | Installing Manila UI
+2026-04-14 05:59:27.020 | Configuring and starting MySQL
+2026-04-14 05:59:49.719 | Starting Keystone
+2026-04-14 06:01:15.552 | Configuring Horizon
+2026-04-14 06:02:48.254 | Configuring Glance
+2026-04-14 06:02:48.559 | Configuring Neutron
+2026-04-14 06:03:19.074 | Configuring Swift
+2026-04-14 06:03:19.347 | Configuring Cinder
+2026-04-14 06:03:19.617 | Configuring placement
+2026-04-14 06:03:53.943 | Configuring Nova
+2026-04-14 06:04:16.326 | Configuring Manila
+2026-04-14 06:04:24.947 | Setting up backend_availability_zone option for any enabled backends that do not use the Generic driver and have not been set previously. Availability zones for the Generic driver must coincide with those created for Nova and Cinder.
+2026-04-14 06:04:27.319 | Initializing Manila
+2026-04-14 06:04:48.124 | Installing extra libraries
