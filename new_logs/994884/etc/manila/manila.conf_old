@@ -88,8 +88,8 @@ interface = public
 auth_type = password
 
 [generic1]
-******_subnet_id = 3a23215f-ea8f-47b3-b4dc-2114ca4cd656
-******_network_id = ffe490d6-26a7-4893-8dbe-6b74802be7ce
+******_subnet_id = 7401ef05-1b60-4d2d-8ef2-b536265c28cc
+******_network_id = c382bf6f-f3c3-4d79-a849-1f592747da3b
 ssh_conn_timeout = 180
 driver_handles_share_servers = True
 service_instance_user = manila
@@ -100,8 +100,8 @@ share_backend_name = GENERIC1
 share_driver = manila.share.drivers.generic.GenericShareDriver
 
 [generic2]
-******_subnet_id = 3a23215f-ea8f-47b3-b4dc-2114ca4cd656
-******_network_id = ffe490d6-26a7-4893-8dbe-6b74802be7ce
+******_subnet_id = 7401ef05-1b60-4d2d-8ef2-b536265c28cc
+******_network_id = c382bf6f-f3c3-4d79-a849-1f592747da3b
 ssh_conn_timeout = 180
 driver_handles_share_servers = True
 service_instance_user = manila
@@ -110,3 +110,6 @@ path_to_private_key = /home/ubuntu/.ssh/id_ecdsa
 path_to_public_key = /home/ubuntu/.ssh/id_ecdsa.pub
 share_backend_name = GENERIC2
 share_driver = manila.share.drivers.generic.GenericShareDriver
+
+[oslo_policy]
+enforce_new_defaults = true
