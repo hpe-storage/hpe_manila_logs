@@ -88,8 +88,8 @@ interface = public
 auth_type = password
 
 [generic1]
-******_subnet_id = fb03f016-524a-48d7-9acd-b404abc428cd
-******_network_id = 12974215-0eaf-4bd0-b4ef-cc0d46bed236
+******_subnet_id = beb17c1d-c0dd-4ec5-8c52-9f0603549c6a
+******_network_id = 6a37e5a6-fcd2-42c5-9eef-fc7c5c4cfab4
 ssh_conn_timeout = 180
 driver_handles_share_servers = True
 service_instance_user = manila
@@ -100,8 +100,8 @@ share_backend_name = GENERIC1
 share_driver = manila.share.drivers.generic.GenericShareDriver
 
 [generic2]
-******_subnet_id = fb03f016-524a-48d7-9acd-b404abc428cd
-******_network_id = 12974215-0eaf-4bd0-b4ef-cc0d46bed236
+******_subnet_id = beb17c1d-c0dd-4ec5-8c52-9f0603549c6a
+******_network_id = 6a37e5a6-fcd2-42c5-9eef-fc7c5c4cfab4
 ssh_conn_timeout = 180
 driver_handles_share_servers = True
 service_instance_user = manila
