@@ -1,0 +1,53 @@
+2026-07-29 23:09:10.261 | stack.sh log /tmp/devstack_logs/devstacklog.txt.2026-07-29-230910
+2026-07-29 23:10:02.814 | Installing package prerequisites
+2026-07-29 23:15:48.705 | Starting RabbitMQ
+2026-07-29 23:16:32.278 | Installing OpenStack project source
+2026-07-29 23:28:11.724 | Installing Tempest
+2026-07-29 23:28:12.162 | Installing Manila Client
+2026-07-29 23:28:15.450 | Installing Manila
+2026-07-29 23:29:05.176 | Installing Manila UI
+2026-07-29 23:29:48.847 | Configuring and starting MySQL
+2026-07-29 23:30:11.575 | Starting Keystone
+2026-07-29 23:31:39.324 | Configuring Horizon
+2026-07-29 23:33:14.820 | Configuring Glance
+2026-07-29 23:33:15.129 | Configuring Neutron
+2026-07-29 23:33:45.237 | Configuring Swift
+2026-07-29 23:33:45.513 | Configuring Cinder
+2026-07-29 23:33:45.805 | Configuring placement
+2026-07-29 23:34:19.630 | Configuring Nova
+2026-07-29 23:34:41.800 | Configuring Manila
+2026-07-29 23:34:51.117 | Setting up backend_availability_zone option for any enabled backends that do not use the Generic driver and have not been set previously. Availability zones for the Generic driver must coincide with those created for Nova and Cinder.
+2026-07-29 23:34:53.650 | Initializing Manila
+2026-07-29 23:35:13.631 | Installing extra libraries
+2026-07-29 23:35:15.428 | Creating Manila entities for auth service
+2026-07-29 23:36:06.331 | Configuring Manila UI
+2026-07-29 23:36:06.721 | Starting Swift
+2026-07-29 23:36:29.178 | Starting Nova API
+2026-07-29 23:36:37.931 | Starting OVN services
+2026-07-29 23:36:55.531 | Starting Neutron
+2026-07-29 23:37:09.837 | Starting Placement
+2026-07-29 23:37:18.353 | Creating initial neutron network elements
+2026-07-29 23:38:29.200 | Starting Nova
+2026-07-29 23:38:55.986 | Starting Cinder
+2026-07-29 23:39:18.963 | Starting Glance
+2026-07-29 23:39:28.024 | Uploading images
+2026-07-29 23:39:42.156 | Starting Horizon
+2026-07-29 23:39:56.762 | Creating Manila service flavor
+2026-07-29 23:40:03.183 | Creating Manila service security group
+2026-07-29 23:41:01.296 | Creating Manila service image
+2026-07-29 23:43:24.050 | Creating Manila service keypair
+2026-07-29 23:43:34.650 | Configure Samba server
+2026-07-29 23:43:34.710 | Configuring IPv6
+2026-07-29 23:43:34.822 | Starting Manila API
+2026-07-29 23:43:45.962 | Creating Manila default share type
+2026-07-29 23:43:53.228 | Creating Manila default share group type
+2026-07-29 23:43:59.748 | Creating Manila custom share types
+2026-07-29 23:44:04.853 | Manila UI is no longer enabled by default. Add enable_plugin manila-ui https://opendev.org/openstack/manila-ui to your local.conf file to enable Manila UI
+2026-07-29 23:44:32.517 | Configuring lvm.conf global device filter
+2026-07-29 23:44:32.989 | set lvm.conf device global_filter to: global_filter = [ "a|loop1|", "r|.*|" ] # from devstack
+2026-07-29 23:44:33.954 | Initializing Tempest
+2026-07-29 23:46:28.171 | Installing Tempest Plugins
+2026-07-29 23:46:28.859 | Creating Manila service VMs for generic driver backends for which handlng of share servers is disabled.
+2026-07-29 23:46:49.395 | Starting rest of Manila services - scheduler, share and data
+2026-07-29 23:46:58.963 | Update Tempest config
+2026-07-29 23:47:01.157 | stack.sh completed in 2622 seconds.
