@@ -1,0 +1,482 @@
+16:04:10 RT program started
+SHELL=/bin/sh
+PWD=/home/ubuntu
+LOGNAME=ubuntu
+XDG_SESSION_TYPE=tty
+HOME=/home/ubuntu
+LANG=C.UTF-8
+SSH_CONNECTION=10.132.46.214 51288 10.132.46.216 22
+XDG_SESSION_CLASS=user
+USER=ubuntu
+SHLVL=1
+XDG_SESSION_ID=8
+XDG_RUNTIME_DIR=/run/user/1000
+SSH_CLIENT=10.132.46.214 51288 22
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+_=/usr/bin/env
+16:04:10 RT We are inside agent gate
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following NEW packages will be installed:
+  net-tools
+0 upgraded, 1 newly installed, 0 to remove and 0 not upgraded.
+Need to get 204 kB of archives.
+After this operation, 811 kB of additional disk space will be used.
+Get:1 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 net-tools amd64 2.10-0.1ubuntu4.4 [204 kB]
+Fetched 204 kB in 1s (174 kB/s)
+Selecting previously unselected package net-tools.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 52506 files and directories currently installed.)
+Preparing to unpack .../net-tools_2.10-0.1ubuntu4.4_amd64.deb ...
+Unpacking net-tools (2.10-0.1ubuntu4.4) ...
+Setting up net-tools (2.10-0.1ubuntu4.4) ...
+Processing triggers for man-db (2.12.0-4build2) ...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following additional packages will be installed:
+  docutils-common ieee-data libsubunit-perl python3-autopage python3-cliff
+  python3-cmd2 python3-ddt python3-debtcollector python3-decorator
+  python3-defusedxml python3-deprecation python3-dnspython python3-docutils
+  python3-dogpile.cache python3-eventlet python3-extras python3-fasteners
+  python3-fixtures python3-gabbi python3-greenlet python3-importlib-metadata
+  python3-iniconfig python3-iso8601 python3-jsonpath-rw
+  python3-jsonpath-rw-ext python3-keystoneauth1 python3-keystoneclient
+  python3-lxml python3-mako python3-monotonic python3-more-itertools
+  python3-mox3 python3-msgpack python3-munch python3-nacl python3-netaddr
+  python3-openstacksdk python3-os-client-config python3-os-service-types
+  python3-os-testr python3-oslo.concurrency python3-oslo.config
+  python3-oslo.context python3-oslo.i18n python3-oslo.log
+  python3-oslo.serialization python3-oslo.utils python3-oslotest
+  python3-paramiko python3-pbr python3-platformdirs python3-pluggy python3-ply
+  python3-prettytable python3-pyasyncore python3-pyinotify python3-pyperclip
+  python3-pytest python3-requestsexceptions python3-rfc3986 python3-roman
+  python3-stestr python3-stevedore python3-subunit python3-swiftclient
+  python3-testrepository python3-testscenarios python3-testtools
+  python3-tomlkit python3-voluptuous python3-wcwidth python3-wrapt
+  python3-wsgi-intercept python3-zipp subunit testrepository
+Suggested packages:
+  python-cliff-doc python-cmd2-doc python-debtcollector-doc python3-trio
+  python3-aioquic python3-h2 python3-httpx python3-httpcore docutils-doc
+  fonts-linuxlibertine | ttf-linux-libertine texlive-lang-french
+  texlive-latex-base texlive-latex-recommended python-eventlet-doc
+  python-gabbi-doc python-greenlet-dev python-greenlet-doc
+  python-jsonpath-rw-ext-doc python-keystoneauth1-doc
+  python3-requests-kerberos python3-keyring python-lxml-doc python-mako-doc
+  python3-beaker python-nacl-doc ipython3 python-netaddr-docs
+  python-openstacksdk-doc python-os-client-config-doc
+  python-os-service-types-doc python-os-testr-doc python-oslo.concurrency-doc
+  python-oslo.log-doc python3-gssapi python3-invoke python-ply-doc
+  python-pyinotify-doc python-stestr-doc python-testtools-doc
+Recommended packages:
+  libpaper-utils python3-pil python3-bs4 python3-cssselect python3-html5lib
+The following NEW packages will be installed:
+  docutils-common ieee-data libsubunit-perl python3-autopage python3-cliff
+  python3-cmd2 python3-ddt python3-debtcollector python3-decorator
+  python3-defusedxml python3-deprecation python3-dnspython python3-docutils
+  python3-dogpile.cache python3-eventlet python3-extras python3-fasteners
+  python3-fixtures python3-gabbi python3-greenlet python3-importlib-metadata
+  python3-iniconfig python3-iso8601 python3-jsonpath-rw
+  python3-jsonpath-rw-ext python3-keystoneauth1 python3-keystoneclient
+  python3-lxml python3-mako python3-monotonic python3-more-itertools
+  python3-mox3 python3-msgpack python3-munch python3-nacl python3-netaddr
+  python3-openstacksdk python3-os-client-config python3-os-service-types
+  python3-os-testr python3-oslo.concurrency python3-oslo.config
+  python3-oslo.context python3-oslo.i18n python3-oslo.log
+  python3-oslo.serialization python3-oslo.utils python3-oslotest
+  python3-paramiko python3-pbr python3-platformdirs python3-pluggy python3-ply
+  python3-prettytable python3-pyasyncore python3-pyinotify python3-pyperclip
+  python3-pytest python3-requestsexceptions python3-rfc3986 python3-roman
+  python3-stestr python3-stevedore python3-subunit python3-swiftclient
+  python3-tempest python3-testrepository python3-testscenarios
+  python3-testtools python3-tomlkit python3-voluptuous python3-wcwidth
+  python3-wrapt python3-wsgi-intercept python3-zipp subunit testrepository
+0 upgraded, 77 newly installed, 0 to remove and 0 not upgraded.
+Need to get 8838 kB of archives.
+After this operation, 55.1 MB of additional disk space will be used.
+Ign:1 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 docutils-common all 0.20.1+dfsg-3
+Ign:2 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 ieee-data all 20220827.1
+Ign:3 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 libsubunit-perl all 1.4.2-3build1
+Ign:4 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-autopage all 0.4.0-3
+Ign:5 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-wcwidth all 0.2.5+dfsg1-1.1ubuntu1
+Ign:6 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-more-itertools all 10.2.0-1
+Ign:7 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 python3-zipp all 1.0.0-6ubuntu0.1
+Ign:8 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-importlib-metadata all 4.12.0-1
+Ign:9 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-pyperclip all 1.8.2-2
+Ign:10 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-cmd2 all 2.4.3+ds-2
+Ign:11 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-roman all 3.3-3
+Ign:12 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-docutils all 0.20.1+dfsg-3
+Ign:13 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-pbr all 5.11.1-0ubuntu1
+Ign:14 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-prettytable all 3.6.0-2
+Ign:15 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-stevedore all 1:5.1.0-0ubuntu1
+Ign:16 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-cliff all 4.6.0-0ubuntu1
+Ign:17 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-ddt all 1.6.0-3
+Ign:18 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-wrapt amd64 1.15.0-2build3
+Ign:19 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-debtcollector all 2.5.0-3
+Ign:20 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-decorator all 5.1.1-5
+Ign:21 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-defusedxml all 0.7.1-2
+Ign:22 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-deprecation all 2.1.0-3
+Ign:23 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-dnspython all 2.6.1-1ubuntu1
+Ign:24 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-mako all 1.3.2-1
+Ign:25 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-dogpile.cache all 1.1.8-3
+Ign:26 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 python3-greenlet amd64 3.0.3-0ubuntu5.1
+Ign:27 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-monotonic all 1.6-2
+Ign:28 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 python3-eventlet all 0.35.2-0ubuntu1.1
+Ign:29 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 python3-extras all 1.0.0-5
+Ign:30 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-fasteners all 0.18-2
+Ign:31 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-testtools all 2.7.1-3
+Ign:32 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-fixtures all 4.0.1-3
+Ign:33 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-ply all 3.11-6
+Ign:34 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-jsonpath-rw all 1.4.0-6
+Ign:35 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 python3-wsgi-intercept all 1.9.3-2ubuntu1
+Ign:36 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-jsonpath-rw-ext all 1.2.2-3
+Ign:37 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 python3-iniconfig all 1.1.1-2
+Ign:38 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 python3-pluggy all 1.4.0-1
+Ign:39 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 python3-pytest all 7.4.4-1
+Ign:40 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 python3-gabbi all 2.4.0-2
+Ign:41 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-iso8601 all 1.0.2-1
+Ign:42 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-lxml amd64 5.2.1-1
+Ign:43 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-os-service-types all 1.7.0-3
+Ign:44 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 python3-keystoneauth1 all 5.6.0-0ubuntu1.1
+Ign:45 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 python3-mox3 all 1.0.0-2
+Ign:46 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-msgpack amd64 1.0.3-3build2
+Ign:47 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-nacl amd64 1.5.0-4build1
+Ign:48 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-netaddr all 0.8.0-2ubuntu1
+Ign:49 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-munch all 4.0.0-1
+Ign:50 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-platformdirs all 4.2.0-1
+Ign:51 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-requestsexceptions all 1.4.0-3
+Ign:52 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-openstacksdk all 3.0.0-0ubuntu2
+Ign:53 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-os-client-config all 2.1.0-0ubuntu5
+Ign:54 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 python3-tomlkit all 0.12.4-1
+Ign:55 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-voluptuous all 0.14.2-1
+Ign:56 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 python3-subunit all 1.4.2-3build1
+Ign:57 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 subunit all 1.4.2-3build1
+Ign:58 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 python3-stestr all 4.1.0-1
+Ign:59 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 python3-os-testr all 3.0.0-0ubuntu1
+Ign:60 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-oslo.i18n all 6.3.0-0ubuntu1
+Ign:61 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-oslo.context all 1:5.5.0-0ubuntu1
+Ign:62 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-oslo.utils all 7.1.0-0ubuntu1
+Ign:63 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-oslo.serialization all 5.4.0-0ubuntu1
+Ign:64 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-pyasyncore all 1.0.2-2
+Ign:65 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-pyinotify all 0.9.6-2ubuntu1
+Ign:66 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-oslo.log all 5.5.1-0ubuntu1
+Ign:67 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-rfc3986 all 2.0.0-2
+Ign:68 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-oslo.config all 1:9.4.0-0ubuntu1
+Ign:69 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-oslo.concurrency all 6.0.0-0ubuntu1
+Ign:70 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 python3-testrepository all 0.0.20-8
+Ign:71 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 testrepository all 0.0.20-8
+Ign:72 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 python3-oslotest all 1:4.5.0-0ubuntu2
+Ign:73 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 python3-paramiko all 2.12.0-2ubuntu4.1
+Ign:74 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-keystoneclient all 1:5.4.0-0ubuntu1
+Ign:75 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-swiftclient all 1:4.5.0-0ubuntu1
+Ign:76 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-testscenarios all 0.5.0-4
+Ign:77 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 python3-tempest all 1:36.0.0-2
+Ign:1 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 docutils-common all 0.20.1+dfsg-3
+Ign:2 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 ieee-data all 20220827.1
+Ign:3 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 libsubunit-perl all 1.4.2-3build1
+Ign:4 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-autopage all 0.4.0-3
+Ign:5 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-wcwidth all 0.2.5+dfsg1-1.1ubuntu1
+Ign:6 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-more-itertools all 10.2.0-1
+Ign:7 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 python3-zipp all 1.0.0-6ubuntu0.1
+Ign:8 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-importlib-metadata all 4.12.0-1
+Ign:9 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-pyperclip all 1.8.2-2
+Ign:10 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-cmd2 all 2.4.3+ds-2
+Ign:11 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-roman all 3.3-3
+Ign:12 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-docutils all 0.20.1+dfsg-3
+Ign:13 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-pbr all 5.11.1-0ubuntu1
+Ign:14 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-prettytable all 3.6.0-2
+Ign:15 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-stevedore all 1:5.1.0-0ubuntu1
+Ign:16 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-cliff all 4.6.0-0ubuntu1
+Ign:17 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-ddt all 1.6.0-3
+Ign:18 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-wrapt amd64 1.15.0-2build3
+Ign:19 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-debtcollector all 2.5.0-3
+Ign:20 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-decorator all 5.1.1-5
+Ign:21 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-defusedxml all 0.7.1-2
+Ign:22 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-deprecation all 2.1.0-3
+Ign:23 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-dnspython all 2.6.1-1ubuntu1
+Ign:24 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-mako all 1.3.2-1
+Ign:25 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-dogpile.cache all 1.1.8-3
+Ign:26 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 python3-greenlet amd64 3.0.3-0ubuntu5.1
+Ign:27 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-monotonic all 1.6-2
+Ign:28 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 python3-eventlet all 0.35.2-0ubuntu1.1
+Ign:29 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 python3-extras all 1.0.0-5
+Ign:30 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-fasteners all 0.18-2
+Ign:31 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-testtools all 2.7.1-3
+Ign:32 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-fixtures all 4.0.1-3
+Ign:33 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-ply all 3.11-6
+Ign:34 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-jsonpath-rw all 1.4.0-6
+Ign:35 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 python3-wsgi-intercept all 1.9.3-2ubuntu1
+Ign:36 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-jsonpath-rw-ext all 1.2.2-3
+Ign:37 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 python3-iniconfig all 1.1.1-2
+Ign:38 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 python3-pluggy all 1.4.0-1
+Ign:39 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 python3-pytest all 7.4.4-1
+Ign:40 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 python3-gabbi all 2.4.0-2
+Ign:41 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-iso8601 all 1.0.2-1
+Ign:42 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-lxml amd64 5.2.1-1
+Ign:43 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-os-service-types all 1.7.0-3
+Ign:44 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 python3-keystoneauth1 all 5.6.0-0ubuntu1.1
+Ign:45 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 python3-mox3 all 1.0.0-2
+Ign:46 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-msgpack amd64 1.0.3-3build2
+Ign:47 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-nacl amd64 1.5.0-4build1
+Ign:48 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-netaddr all 0.8.0-2ubuntu1
+Ign:49 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-munch all 4.0.0-1
+Ign:50 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-platformdirs all 4.2.0-1
+Ign:51 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-requestsexceptions all 1.4.0-3
+Ign:52 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-openstacksdk all 3.0.0-0ubuntu2
+Ign:53 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-os-client-config all 2.1.0-0ubuntu5
+Ign:54 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 python3-tomlkit all 0.12.4-1
+Ign:55 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-voluptuous all 0.14.2-1
+Ign:56 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 python3-subunit all 1.4.2-3build1
+Ign:57 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 subunit all 1.4.2-3build1
+Ign:58 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 python3-stestr all 4.1.0-1
+Ign:59 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 python3-os-testr all 3.0.0-0ubuntu1
+Ign:60 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-oslo.i18n all 6.3.0-0ubuntu1
+Ign:61 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-oslo.context all 1:5.5.0-0ubuntu1
+Ign:62 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-oslo.utils all 7.1.0-0ubuntu1
+Ign:63 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-oslo.serialization all 5.4.0-0ubuntu1
+Ign:64 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-pyasyncore all 1.0.2-2
+Ign:65 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-pyinotify all 0.9.6-2ubuntu1
+Ign:66 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-oslo.log all 5.5.1-0ubuntu1
+Ign:67 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-rfc3986 all 2.0.0-2
+Ign:68 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-oslo.config all 1:9.4.0-0ubuntu1
+Ign:69 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-oslo.concurrency all 6.0.0-0ubuntu1
+Ign:70 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 python3-testrepository all 0.0.20-8
+Ign:71 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 testrepository all 0.0.20-8
+Ign:72 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 python3-oslotest all 1:4.5.0-0ubuntu2
+Ign:73 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 python3-paramiko all 2.12.0-2ubuntu4.1
+Ign:74 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-keystoneclient all 1:5.4.0-0ubuntu1
+Ign:75 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-swiftclient all 1:4.5.0-0ubuntu1
+Ign:76 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-testscenarios all 0.5.0-4
+Ign:77 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 python3-tempest all 1:36.0.0-2
+Ign:1 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 docutils-common all 0.20.1+dfsg-3
+Ign:2 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 ieee-data all 20220827.1
+Ign:3 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 libsubunit-perl all 1.4.2-3build1
+Ign:4 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-autopage all 0.4.0-3
+Ign:5 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-wcwidth all 0.2.5+dfsg1-1.1ubuntu1
+Ign:6 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-more-itertools all 10.2.0-1
+Ign:7 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 python3-zipp all 1.0.0-6ubuntu0.1
+Ign:8 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-importlib-metadata all 4.12.0-1
+Ign:9 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-pyperclip all 1.8.2-2
+Ign:10 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-cmd2 all 2.4.3+ds-2
+Ign:11 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-roman all 3.3-3
+Ign:12 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-docutils all 0.20.1+dfsg-3
+Ign:13 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-pbr all 5.11.1-0ubuntu1
+Ign:14 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-prettytable all 3.6.0-2
+Ign:15 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-stevedore all 1:5.1.0-0ubuntu1
+Ign:16 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-cliff all 4.6.0-0ubuntu1
+Ign:17 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-ddt all 1.6.0-3
+Ign:18 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-wrapt amd64 1.15.0-2build3
+Ign:19 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-debtcollector all 2.5.0-3
+Ign:20 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-decorator all 5.1.1-5
+Ign:21 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-defusedxml all 0.7.1-2
+Ign:22 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-deprecation all 2.1.0-3
+Ign:23 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-dnspython all 2.6.1-1ubuntu1
+Ign:24 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-mako all 1.3.2-1
+Ign:25 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-dogpile.cache all 1.1.8-3
+Ign:26 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 python3-greenlet amd64 3.0.3-0ubuntu5.1
+Ign:27 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-monotonic all 1.6-2
+Ign:28 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 python3-eventlet all 0.35.2-0ubuntu1.1
+Ign:29 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 python3-extras all 1.0.0-5
+Ign:30 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-fasteners all 0.18-2
+Ign:31 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-testtools all 2.7.1-3
+Ign:32 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-fixtures all 4.0.1-3
+Ign:33 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-ply all 3.11-6
+Ign:34 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-jsonpath-rw all 1.4.0-6
+Ign:35 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 python3-wsgi-intercept all 1.9.3-2ubuntu1
+Ign:36 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-jsonpath-rw-ext all 1.2.2-3
+Ign:37 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 python3-iniconfig all 1.1.1-2
+Ign:38 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 python3-pluggy all 1.4.0-1
+Ign:39 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 python3-pytest all 7.4.4-1
+Ign:40 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 python3-gabbi all 2.4.0-2
+Ign:41 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-iso8601 all 1.0.2-1
+Ign:42 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-lxml amd64 5.2.1-1
+Ign:43 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-os-service-types all 1.7.0-3
+Ign:44 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 python3-keystoneauth1 all 5.6.0-0ubuntu1.1
+Ign:45 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 python3-mox3 all 1.0.0-2
+Ign:46 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-msgpack amd64 1.0.3-3build2
+Ign:47 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-nacl amd64 1.5.0-4build1
+Ign:48 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-netaddr all 0.8.0-2ubuntu1
+Ign:49 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-munch all 4.0.0-1
+Ign:50 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-platformdirs all 4.2.0-1
+Ign:51 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-requestsexceptions all 1.4.0-3
+Ign:52 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-openstacksdk all 3.0.0-0ubuntu2
+Ign:53 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-os-client-config all 2.1.0-0ubuntu5
+Ign:54 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 python3-tomlkit all 0.12.4-1
+Ign:55 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-voluptuous all 0.14.2-1
+Ign:56 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 python3-subunit all 1.4.2-3build1
+Ign:57 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 subunit all 1.4.2-3build1
+Ign:58 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 python3-stestr all 4.1.0-1
+Ign:59 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 python3-os-testr all 3.0.0-0ubuntu1
+Ign:60 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-oslo.i18n all 6.3.0-0ubuntu1
+Ign:61 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-oslo.context all 1:5.5.0-0ubuntu1
+Ign:62 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-oslo.utils all 7.1.0-0ubuntu1
+Ign:63 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-oslo.serialization all 5.4.0-0ubuntu1
+Ign:64 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-pyasyncore all 1.0.2-2
+Ign:65 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-pyinotify all 0.9.6-2ubuntu1
+Ign:66 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-oslo.log all 5.5.1-0ubuntu1
+Ign:67 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-rfc3986 all 2.0.0-2
+Ign:68 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-oslo.config all 1:9.4.0-0ubuntu1
+Ign:69 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-oslo.concurrency all 6.0.0-0ubuntu1
+Ign:70 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 python3-testrepository all 0.0.20-8
+Ign:71 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 testrepository all 0.0.20-8
+Ign:72 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 python3-oslotest all 1:4.5.0-0ubuntu2
+Ign:73 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 python3-paramiko all 2.12.0-2ubuntu4.1
+Ign:74 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-keystoneclient all 1:5.4.0-0ubuntu1
+Ign:75 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-swiftclient all 1:4.5.0-0ubuntu1
+Ign:76 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-testscenarios all 0.5.0-4
+Ign:77 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 python3-tempest all 1:36.0.0-2
+Err:1 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 docutils-common all 0.20.1+dfsg-3
+  503  Service Unavailable [IP: 10.120.125.146 80]
+Err:2 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 ieee-data all 20220827.1
+  503  Service Unavailable [IP: 10.120.125.146 80]
+Err:3 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 libsubunit-perl all 1.4.2-3build1
+  503  Service Unavailable [IP: 10.120.125.146 80]
+Err:4 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-autopage all 0.4.0-3
+  503  Service Unavailable [IP: 10.120.125.146 80]
+Err:5 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-wcwidth all 0.2.5+dfsg1-1.1ubuntu1
+  503  Service Unavailable [IP: 10.120.125.146 80]
+Err:6 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-more-itertools all 10.2.0-1
+  503  Service Unavailable [IP: 10.120.125.146 80]
+Err:7 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 python3-zipp all 1.0.0-6ubuntu0.1
+  503  Service Unavailable [IP: 10.120.125.146 80]
+Err:8 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-importlib-metadata all 4.12.0-1
+  503  Service Unavailable [IP: 10.120.125.146 80]
+Err:9 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-pyperclip all 1.8.2-2
+  503  Service Unavailable [IP: 10.120.125.146 80]
+Err:10 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-cmd2 all 2.4.3+ds-2
+  503  Service Unavailable [IP: 10.120.125.146 80]
+Err:11 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-roman all 3.3-3
+  503  Service Unavailable [IP: 10.120.125.146 80]
+Err:12 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-docutils all 0.20.1+dfsg-3
+  503  Service Unavailable [IP: 10.120.125.146 80]
+Err:13 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-pbr all 5.11.1-0ubuntu1
+  503  Service Unavailable [IP: 10.120.125.146 80]
+Err:14 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-prettytable all 3.6.0-2
+  503  Service Unavailable [IP: 10.120.125.146 80]
+Err:15 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-stevedore all 1:5.1.0-0ubuntu1
+  503  Service Unavailable [IP: 10.120.125.146 80]
+Err:16 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-cliff all 4.6.0-0ubuntu1
+  503  Service Unavailable [IP: 10.120.125.146 80]
+Err:17 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-ddt all 1.6.0-3
+  503  Service Unavailable [IP: 10.120.125.146 80]
+Err:18 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-wrapt amd64 1.15.0-2build3
+  503  Service Unavailable [IP: 10.120.125.146 80]
+Err:19 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-debtcollector all 2.5.0-3
+  503  Service Unavailable [IP: 10.120.125.146 80]
+Err:20 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-decorator all 5.1.1-5
+  503  Service Unavailable [IP: 10.120.125.146 80]
+Err:21 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-defusedxml all 0.7.1-2
+  503  Service Unavailable [IP: 10.120.125.146 80]
+Err:22 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-deprecation all 2.1.0-3
+  503  Service Unavailable [IP: 10.120.125.146 80]
+Err:23 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-dnspython all 2.6.1-1ubuntu1
+  503  Service Unavailable [IP: 10.120.125.146 80]
+Err:24 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-mako all 1.3.2-1
+  503  Service Unavailable [IP: 10.120.125.146 80]
+Err:25 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-dogpile.cache all 1.1.8-3
+  503  Service Unavailable [IP: 10.120.125.146 80]
+Err:26 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 python3-greenlet amd64 3.0.3-0ubuntu5.1
+  503  Service Unavailable [IP: 10.120.125.146 80]
+Err:27 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-monotonic all 1.6-2
+  503  Service Unavailable [IP: 10.120.125.146 80]
+Err:28 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 python3-eventlet all 0.35.2-0ubuntu1.1
+  503  Service Unavailable [IP: 10.120.125.146 80]
+Err:29 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 python3-extras all 1.0.0-5
+  503  Service Unavailable [IP: 10.120.125.146 80]
+Err:30 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-fasteners all 0.18-2
+  503  Service Unavailable [IP: 10.120.125.146 80]
+Err:31 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-testtools all 2.7.1-3
+  503  Service Unavailable [IP: 10.120.125.146 80]
+Err:32 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-fixtures all 4.0.1-3
+  503  Service Unavailable [IP: 10.120.125.146 80]
+Err:33 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-ply all 3.11-6
+  503  Service Unavailable [IP: 10.120.125.146 80]
+Err:34 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-jsonpath-rw all 1.4.0-6
+  503  Service Unavailable [IP: 10.120.125.146 80]
+Err:35 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 python3-wsgi-intercept all 1.9.3-2ubuntu1
+  503  Service Unavailable [IP: 10.120.125.146 80]
+Err:36 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-jsonpath-rw-ext all 1.2.2-3
+  503  Service Unavailable [IP: 10.120.125.146 80]
+Err:37 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 python3-iniconfig all 1.1.1-2
+  503  Service Unavailable [IP: 10.120.125.146 80]
+Err:38 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 python3-pluggy all 1.4.0-1
+  503  Service Unavailable [IP: 10.120.125.146 80]
+Err:39 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 python3-pytest all 7.4.4-1
+  503  Service Unavailable [IP: 10.120.125.146 80]
+Err:40 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 python3-gabbi all 2.4.0-2
+  503  Service Unavailable [IP: 10.120.125.146 80]
+Err:41 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-iso8601 all 1.0.2-1
+  503  Service Unavailable [IP: 10.120.125.146 80]
+Err:42 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-lxml amd64 5.2.1-1
+  503  Service Unavailable [IP: 10.120.125.146 80]
+Err:43 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-os-service-types all 1.7.0-3
+  503  Service Unavailable [IP: 10.120.125.146 80]
+Err:44 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 python3-keystoneauth1 all 5.6.0-0ubuntu1.1
+  503  Service Unavailable [IP: 10.120.125.146 80]
+Err:45 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 python3-mox3 all 1.0.0-2
+  503  Service Unavailable [IP: 10.120.125.146 80]
+Err:46 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-msgpack amd64 1.0.3-3build2
+  503  Service Unavailable [IP: 10.120.125.146 80]
+Err:47 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-nacl amd64 1.5.0-4build1
+  503  Service Unavailable [IP: 10.120.125.146 80]
+Err:48 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-netaddr all 0.8.0-2ubuntu1
+  503  Service Unavailable [IP: 10.120.125.146 80]
+Err:49 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-munch all 4.0.0-1
+  503  Service Unavailable [IP: 10.120.125.146 80]
+Err:50 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-platformdirs all 4.2.0-1
+  503  Service Unavailable [IP: 10.120.125.146 80]
+Err:51 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-requestsexceptions all 1.4.0-3
+  503  Service Unavailable [IP: 10.120.125.146 80]
+Err:52 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-openstacksdk all 3.0.0-0ubuntu2
+  503  Service Unavailable [IP: 10.120.125.146 80]
+Err:53 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-os-client-config all 2.1.0-0ubuntu5
+  503  Service Unavailable [IP: 10.120.125.146 80]
+Err:54 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 python3-tomlkit all 0.12.4-1
+  503  Service Unavailable [IP: 10.120.125.146 80]
+Err:55 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-voluptuous all 0.14.2-1
+  503  Service Unavailable [IP: 10.120.125.146 80]
+Err:56 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 python3-subunit all 1.4.2-3build1
+  503  Service Unavailable [IP: 10.120.125.146 80]
+Err:57 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 subunit all 1.4.2-3build1
+  503  Service Unavailable [IP: 10.120.125.146 80]
+Err:58 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 python3-stestr all 4.1.0-1
+  503  Service Unavailable [IP: 10.120.125.146 80]
+Err:59 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 python3-os-testr all 3.0.0-0ubuntu1
+  503  Service Unavailable [IP: 10.120.125.146 80]
+Err:60 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-oslo.i18n all 6.3.0-0ubuntu1
+  503  Service Unavailable [IP: 10.120.125.146 80]
+Err:61 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-oslo.context all 1:5.5.0-0ubuntu1
+  503  Service Unavailable [IP: 10.120.125.146 80]
+Err:62 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-oslo.utils all 7.1.0-0ubuntu1
+  503  Service Unavailable [IP: 10.120.125.146 80]
+Err:63 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-oslo.serialization all 5.4.0-0ubuntu1
+  503  Service Unavailable [IP: 10.120.125.146 80]
+Err:64 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-pyasyncore all 1.0.2-2
+  503  Service Unavailable [IP: 10.120.125.146 80]
+Err:65 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-pyinotify all 0.9.6-2ubuntu1
+  503  Service Unavailable [IP: 10.120.125.146 80]
+Err:66 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-oslo.log all 5.5.1-0ubuntu1
+  503  Service Unavailable [IP: 10.120.125.146 80]
+Err:67 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-rfc3986 all 2.0.0-2
+  503  Service Unavailable [IP: 10.120.125.146 80]
+Err:68 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-oslo.config all 1:9.4.0-0ubuntu1
+  503  Service Unavailable [IP: 10.120.125.146 80]
+Err:69 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-oslo.concurrency all 6.0.0-0ubuntu1
+  503  Service Unavailable [IP: 10.120.125.146 80]
+Err:70 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 python3-testrepository all 0.0.20-8
+  503  Service Unavailable [IP: 10.120.125.146 80]
+Err:71 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 testrepository all 0.0.20-8
+  503  Service Unavailable [IP: 10.120.125.146 80]
+Err:72 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 python3-oslotest all 1:4.5.0-0ubuntu2
+  503  Service Unavailable [IP: 10.120.125.146 80]
+Err:73 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 python3-paramiko all 2.12.0-2ubuntu4.1
+  503  Service Unavailable [IP: 10.120.125.146 80]
+Err:74 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-keystoneclient all 1:5.4.0-0ubuntu1
+  503  Service Unavailable [IP: 10.120.125.146 80]
+Err:75 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-swiftclient all 1:4.5.0-0ubuntu1
+  503  Service Unavailable [IP: 10.120.125.146 80]
+Err:76 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-testscenarios all 0.5.0-4
+  503  Service Unavailable [IP: 10.120.125.146 80]
+Err:77 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 python3-tempest all 1:36.0.0-2
+  503  Service Unavailable [IP: 10.120.125.146 80]
