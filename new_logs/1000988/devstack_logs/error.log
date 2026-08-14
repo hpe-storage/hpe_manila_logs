@@ -1,0 +1,1 @@
+[ERROR] /opt/stack/devstack/functions-common:709 git call failed: [git clone --no-checkout https://opendev.org/openstack/nova.git /opt/stack/nova]
