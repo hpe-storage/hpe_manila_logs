@@ -1,21 +1,21 @@
-07:13:32 RT program started
+20:23:59 RT program started
 SHELL=/bin/sh
 PWD=/home/ubuntu
 LOGNAME=ubuntu
 XDG_SESSION_TYPE=tty
 HOME=/home/ubuntu
 LANG=C.UTF-8
-SSH_CONNECTION=10.132.46.214 51226 10.132.46.216 22
+SSH_CONNECTION=10.132.46.214 38970 10.132.46.216 22
 XDG_SESSION_CLASS=user
 USER=ubuntu
 SHLVL=1
-XDG_SESSION_ID=1655
+XDG_SESSION_ID=10539
 XDG_RUNTIME_DIR=/run/user/1000
-SSH_CLIENT=10.132.46.214 51226 22
+SSH_CLIENT=10.132.46.214 38970 22
 PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
 _=/usr/bin/env
-07:13:32 RT We are inside agent gate
+20:23:59 RT We are inside agent gate
 Reading package lists...
 Building dependency tree...
 Reading state information...
@@ -25,7 +25,7 @@ The following NEW packages will be installed:
 Need to get 204 kB of archives.
 After this operation, 811 kB of additional disk space will be used.
 Get:1 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 net-tools amd64 2.10-0.1ubuntu4.4 [204 kB]
-Fetched 204 kB in 1s (184 kB/s)
+Fetched 204 kB in 2s (94.9 kB/s)
 Selecting previously unselected package net-tools.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 52506 files and directories currently installed.)
 Preparing to unpack .../net-tools_2.10-0.1ubuntu4.4_amd64.deb ...
@@ -172,7 +172,7 @@ Get:74 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-key
 Get:75 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-swiftclient all 1:4.5.0-0ubuntu1 [69.9 kB]
 Get:76 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-testscenarios all 0.5.0-4 [13.0 kB]
 Get:77 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 python3-tempest all 1:36.0.0-2 [622 kB]
-Fetched 8838 kB in 20s (448 kB/s)
+Fetched 8838 kB in 32s (273 kB/s)
 Selecting previously unselected package docutils-common.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 52554 files and directories currently installed.)
 Preparing to unpack .../00-docutils-common_0.20.1+dfsg-3_all.deb ...
@@ -498,20 +498,20 @@ Setting up python3-os-testr (3.0.0-0ubuntu1) ...
 Setting up python3-tempest (1:36.0.0-2) ...
  To check what array_ip_var_name is printing
 SSA02_IP
-07:14:38 RT Below Functions are created to manage CPG
-07:14:38 RT Inside install_packages
+20:25:15 RT Below Functions are created to manage CPG
+20:25:15 RT Inside install_packages
 Hit:1 http://nova.clouds.archive.ubuntu.com/ubuntu noble InRelease
 Get:2 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates InRelease [126 kB]
-Get:3 http://security.ubuntu.com/ubuntu noble-security InRelease [126 kB]
-Get:4 http://nova.clouds.archive.ubuntu.com/ubuntu noble-backports InRelease [126 kB]
+Get:3 http://nova.clouds.archive.ubuntu.com/ubuntu noble-backports InRelease [126 kB]
+Get:4 http://security.ubuntu.com/ubuntu noble-security InRelease [126 kB]
 Get:5 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 Packages [1229 kB]
 Get:6 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 Components [181 kB]
 Get:7 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 c-n-f Metadata [17.7 kB]
-Get:8 http://security.ubuntu.com/ubuntu noble-security/main amd64 Packages [969 kB]
-Get:9 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/universe amd64 Packages [1687 kB]
+Get:8 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/universe amd64 Packages [1687 kB]
+Get:9 http://security.ubuntu.com/ubuntu noble-security/main amd64 Packages [969 kB]
 Get:10 http://security.ubuntu.com/ubuntu noble-security/main amd64 Components [46.4 kB]
-Get:11 http://security.ubuntu.com/ubuntu noble-security/main amd64 c-n-f Metadata [11.9 kB]
-Get:12 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/universe amd64 Components [388 kB]
+Get:11 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/universe amd64 Components [388 kB]
+Get:12 http://security.ubuntu.com/ubuntu noble-security/main amd64 c-n-f Metadata [11.9 kB]
 Get:13 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/universe amd64 c-n-f Metadata [34.9 kB]
 Get:14 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/restricted amd64 Packages [1486 kB]
 Get:15 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/restricted amd64 Components [212 B]
@@ -519,14 +519,14 @@ Get:16 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/restricted amd
 Get:17 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/multiverse amd64 Packages [45.4 kB]
 Get:18 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/multiverse amd64 Components [940 B]
 Get:19 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/multiverse amd64 c-n-f Metadata [656 B]
-Get:20 http://security.ubuntu.com/ubuntu noble-security/universe amd64 Packages [1202 kB]
+Get:20 http://security.ubuntu.com/ubuntu noble-security/universe amd64 Packages [1203 kB]
 Get:21 http://nova.clouds.archive.ubuntu.com/ubuntu noble-backports/main amd64 Packages [40.6 kB]
 Get:22 http://nova.clouds.archive.ubuntu.com/ubuntu noble-backports/main amd64 Components [5760 B]
-Get:23 http://security.ubuntu.com/ubuntu noble-security/universe amd64 Components [76.3 kB]
-Get:24 http://nova.clouds.archive.ubuntu.com/ubuntu noble-backports/main amd64 c-n-f Metadata [368 B]
-Get:25 http://security.ubuntu.com/ubuntu noble-security/universe amd64 c-n-f Metadata [24.2 kB]
-Get:26 http://nova.clouds.archive.ubuntu.com/ubuntu noble-backports/universe amd64 Packages [31.0 kB]
-Get:27 http://nova.clouds.archive.ubuntu.com/ubuntu noble-backports/universe amd64 Components [12.6 kB]
+Get:23 http://nova.clouds.archive.ubuntu.com/ubuntu noble-backports/main amd64 c-n-f Metadata [368 B]
+Get:24 http://security.ubuntu.com/ubuntu noble-security/universe amd64 Components [76.3 kB]
+Get:25 http://nova.clouds.archive.ubuntu.com/ubuntu noble-backports/universe amd64 Packages [31.0 kB]
+Get:26 http://nova.clouds.archive.ubuntu.com/ubuntu noble-backports/universe amd64 Components [12.6 kB]
+Get:27 http://security.ubuntu.com/ubuntu noble-security/universe amd64 c-n-f Metadata [24.2 kB]
 Get:28 http://nova.clouds.archive.ubuntu.com/ubuntu noble-backports/universe amd64 c-n-f Metadata [1588 B]
 Get:29 http://nova.clouds.archive.ubuntu.com/ubuntu noble-backports/restricted amd64 Components [212 B]
 Get:30 http://nova.clouds.archive.ubuntu.com/ubuntu noble-backports/multiverse amd64 Packages [748 B]
@@ -537,7 +537,7 @@ Get:34 http://security.ubuntu.com/ubuntu noble-security/restricted amd64 c-n-f M
 Get:35 http://security.ubuntu.com/ubuntu noble-security/multiverse amd64 Packages [40.3 kB]
 Get:36 http://security.ubuntu.com/ubuntu noble-security/multiverse amd64 Components [208 B]
 Get:37 http://security.ubuntu.com/ubuntu noble-security/multiverse amd64 c-n-f Metadata [468 B]
-Fetched 9303 kB in 8s (1135 kB/s)
+Fetched 9303 kB in 11s (877 kB/s)
 Reading package lists...
 Building dependency tree...
 Reading state information...
@@ -556,7 +556,7 @@ Need to get 1373 kB of archives.
 After this operation, 7270 kB of additional disk space will be used.
 Get:1 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 python3-wheel all 0.42.0-2 [53.1 kB]
 Get:2 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/universe amd64 python3-pip all 24.0+dfsg-1ubuntu1.3 [1320 kB]
-Fetched 1373 kB in 1s (1690 kB/s)
+Fetched 1373 kB in 1s (1652 kB/s)
 Selecting previously unselected package python3-wheel.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 58312 files and directories currently installed.)
 Preparing to unpack .../python3-wheel_0.42.0-2_all.deb ...
@@ -586,7 +586,7 @@ Get:2 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 libevent-2.1
 Get:3 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libunbound8 amd64 1.19.2-1ubuntu3.9 [445 kB]
 Get:4 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libgnutls-dane0t64 amd64 3.8.3-1.1ubuntu3.6 [23.5 kB]
 Get:5 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/universe amd64 gnutls-bin amd64 3.8.3-1.1ubuntu3.6 [270 kB]
-Fetched 1886 kB in 2s (788 kB/s)
+Fetched 1886 kB in 2s (1188 kB/s)
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 59029 files and directories currently installed.)
 Preparing to unpack .../libgnutls30t64_3.8.3-1.1ubuntu3.6_amd64.deb ...
 Unpacking libgnutls30t64:amd64 (3.8.3-1.1ubuntu3.6) over (3.8.3-1.1ubuntu3.4) ...
@@ -617,7 +617,7 @@ Reading state information...
 Need to get 397 kB of archives.
 After this operation, 0 B of additional disk space will be used.
 Get:1 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 python3-setuptools all 68.1.2-2ubuntu1.2 [397 kB]
-Fetched 397 kB in 0s (1194 kB/s)
+Fetched 397 kB in 0s (1056 kB/s)
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 59068 files and directories currently installed.)
 Preparing to unpack .../python3-setuptools_68.1.2-2ubuntu1.2_all.deb ...
 Unpacking python3-setuptools (68.1.2-2ubuntu1.2) over (68.1.2-2ubuntu1.2) ...
@@ -643,7 +643,7 @@ Get:4 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/universe amd64 
 Get:5 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 python3-wheel-whl all 0.42.0-2 [67.8 kB]
 Get:6 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 python3-virtualenv all 20.25.0+ds-2 [70.8 kB]
 Get:7 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 virtualenv all 20.25.0+ds-2 [1978 B]
-Fetched 2893 kB in 2s (1387 kB/s)
+Fetched 2893 kB in 2s (1395 kB/s)
 Selecting previously unselected package python3-distlib.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 59068 files and directories currently installed.)
 Preparing to unpack .../0-python3-distlib_0.3.8-1_all.deb ...
@@ -683,7 +683,7 @@ The following NEW packages will be installed:
 Need to get 10.4 kB of archives.
 After this operation, 51.2 kB of additional disk space will be used.
 Get:1 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 vlan all 2.0.5ubuntu5 [10.4 kB]
-Fetched 10.4 kB in 0s (56.2 kB/s)
+Fetched 10.4 kB in 0s (55.2 kB/s)
 Selecting previously unselected package vlan.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 59270 files and directories currently installed.)
 Preparing to unpack .../vlan_2.0.5ubuntu5_all.deb ...
@@ -695,9 +695,9 @@ Building dependency tree...
 Reading state information...
 net-tools is already the newest version (2.10-0.1ubuntu4.4).
 0 upgraded, 0 newly installed, 0 to remove and 230 not upgraded.
-07:15:31 RT Inside clone_projects
-07:15:32 RT git clone master
-07:15:36 RT Inside run_stack
+20:26:11 RT Inside clone_projects
+20:26:11 RT git clone master
+20:26:16 RT Inside run_stack
 Check for project 
-refs/changes/01/993501/67
+refs/changes/01/993501/68
 Error: Skipping CI for project.
